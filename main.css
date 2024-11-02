@@ -1,0 +1,48 @@
+body{
+    background-image:url('./image/background.jpg');
+   background-repeat:no-repeat;
+   background-size:140%,auto;
+   background-position :center;
+    height: 100vh;
+    width:100vw; 
+}
+#yes{
+    background-color: aquamarine;
+    border-radius:20px;
+    border:white;
+    width:100px;
+    height:55px;
+    box-shadow: 0 15px 8px 0 #00000028;
+    position : absolute;
+    top : 50%;
+    left:45%;
+}
+#yes:hover{
+    background-color:aliceblue;
+    box-shadow: 0 15px 8px 0 #00000077;
+}
+
+#no{
+    background-color: aquamarine;
+    border-radius:20px;
+    border:white;
+    width:100px;
+    height:55px;
+    box-shadow: 0 15px 8px 0 #00000028;
+    position : absolute;
+    top : 50%;
+    left:25%;
+}
+#no:hover{
+    background-color:aliceblue;
+    box-shadow: 0 15px 8px 0 #00000077;
+}
+.text{
+    font-family:"Roboto", sans-serif;
+    position : absolute ; 
+    transform: translate(-50%, -50%);
+    top:35%;
+    left:43%;
+    font-size:25px;
+    font-weight:300;
+}
